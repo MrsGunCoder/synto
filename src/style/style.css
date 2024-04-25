@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.leviyDiv {
+  background-color: #111c43;
+  width: 20%;
+  height: 1000px;
+}
+
+.loqoDiv {
+  border-bottom: 1px solid #edeef1;
+  height: 60px;
+}
+nav {
+  padding: 25px;
+}
+
+ul {
+  margin-left: 65px;
+}
+.loqoDiv img {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+span {
+  color: #a3aed1;
+}
+
+.icon {
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+h1 {
+  color: #ffffff;
+}
+.leviyDiv a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.sag-div {
+  width: 100%;
+}
+
+header {
+  /* border: 1px solid black; */
+  height: 65px;
+  background-color: white;
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  i {
+    margin-left: 35px;
+    &:hover {
+      background-color: #f2f6f9;
+    }
+  }
+  icon {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+}
+
+main {
+  background-color: #f2f6f9;
+  height: 100%;
+  display: grid;
+  gap: 25px;
+  section-main{
+    basliq{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+     
+      h1{
+        color: black;
+      }
+    
+      
+    }
+  }
+
+  .section-cont {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 1.9fr;
+    grid-template-rows: 530px;
+
+    .container-1 {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+      gap: 25px 0;
+
+      div {
+        width: 325px;
+        height: 140px;
+        background: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 5px;
+      }
+    }
+    .container-2 {
+      padding: 60px 0;
+      margin-top: 20px;
+      gap: 25px 0;
+      width: 550px;
+      height: 355px;
+      background: white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 5px;
+    }
+    
+  }
+}
+.container-3{
+  display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+      gap: 25px 0;
+      margin-left: 15px;
+      div{
+        width: 325px;
+        height: 240px;
+        background: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 5px;
+       
+      }
+      
+    
+}
